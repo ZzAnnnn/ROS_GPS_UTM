@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="lab1_gps" type="device_driver.py" name="gps_data_publisher" args="$(arg port)" output="screen"/>
+
+</launch>
